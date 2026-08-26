@@ -1,0 +1,25 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build do Flet / Flutter (gerado automaticamente pelo "flet build apk")
+build/
+
+# Configurações de projeto do PyCharm
+.idea/
+
+# Configurações de outros editores (caso alterne entre eles)
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

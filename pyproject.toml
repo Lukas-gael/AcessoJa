@@ -1,0 +1,17 @@
+[project]
+name = "acesso_ja"
+version = "1.0.0"
+description = "App de contatos essenciais - projeto de faculdade"
+requires-python = ">=3.9"
+dependencies = [
+    "flet==0.85.3",
+]
+
+[tool.flet]
+org = "com.acessoja"
+product = "Acesso Já"
+company = "Lucas Gabriel Moreira dos Santos"
+copyright = "Copyright (C) 2026"
+
+[tool.flet.android]
+min_sdk_version = 24

@@ -1,0 +1,180 @@
+{
+  "categorias": [
+    {
+      "id": "emergencia",
+      "nome": "Emergência",
+      "icone": "EMERGENCY",
+      "descricao": "Serviços acionados em situações de risco imediato à vida, à saúde ou à segurança. Use em casos urgentes.",
+      "servicos": [
+        {
+          "id": "samu",
+          "nome": "SAMU",
+          "descricao": "Serviço de Atendimento Móvel de Urgência. Atende emergências médicas com ambulâncias e suporte de vida.",
+          "telefone": "192",
+          "whatsapp": null,
+          "site": null,
+          "horario": "24 horas"
+        },
+        {
+          "id": "policia_militar",
+          "nome": "Polícia Militar",
+          "descricao": "Responsável pelo policiamento ostensivo e preservação da ordem pública. Acione em casos de flagrante ou perigo iminente.",
+          "telefone": "190",
+          "whatsapp": null,
+          "site": null,
+          "horario": "24 horas"
+        },
+        {
+          "id": "policia_civil",
+          "nome": "Polícia Civil",
+          "descricao": "Responsável por investigações e registro de ocorrências (boletim de ocorrência) que não sejam flagrante.",
+          "telefone": "197",
+          "whatsapp": null,
+          "site": "https://www.gov.br/pf/pt-br",
+          "horario": "24 horas (delegacias variam por cidade)"
+        },
+        {
+          "id": "bombeiros",
+          "nome": "Bombeiros",
+          "descricao": "Atendimento a incêndios, resgates, acidentes e salvamentos em geral.",
+          "telefone": "193",
+          "whatsapp": null,
+          "site": null,
+          "horario": "24 horas"
+        },
+        {
+          "id": "defesa_civil",
+          "nome": "Defesa Civil",
+          "descricao": "Atua na prevenção e resposta a desastres naturais, como enchentes, deslizamentos e situações de risco estrutural.",
+          "telefone": "199",
+          "whatsapp": null,
+          "site": null,
+          "horario": "24 horas"
+        }
+      ]
+    },
+    {
+      "id": "utilidades",
+      "nome": "Utilidades",
+      "icone": "BOLT",
+      "descricao": "Empresas responsáveis pelo fornecimento de serviços essenciais do dia a dia, como energia, água e coleta de lixo.",
+      "servicos": [
+        {
+          "id": "energia",
+          "nome": "Copel",
+          "descricao": "Falta de energia, religação, contas e emergências na rede elétrica.",
+          "telefone": "0800 51 00 116",
+          "whatsapp": "554130138973",
+          "site": "https://www.copel.com/",
+          "horario": "Emergências 24h · Atendimento comercial 8h às 18h"
+        },
+        {
+          "id": "agua",
+          "nome": "Sanepar",
+          "descricao": "Falta d'água, vazamentos, 2ª via de conta e ligações novas.",
+          "telefone": "0800 200 0115",
+          "whatsapp": "5541995440115",
+          "site": "https://www.sanepar.com.br/",
+          "horario": "Emergências 24h · Atendimento comercial 8h às 18h"
+        },
+        {
+          "id": "lixo",
+          "nome": "Coleta de Lixo",
+          "descricao": "Informações sobre dias e horários de coleta, coleta seletiva e descarte de materiais especiais.",
+          "telefone": "156",
+          "whatsapp": null,
+          "site": "https://coletalixo.curitiba.pr.gov.br",
+          "horario": "Atendimento 8h às 17h"
+        }
+      ]
+    },
+    {
+      "id": "servicos_publicos",
+      "nome": "Serviços Públicos",
+      "icone": "ACCOUNT_BALANCE",
+      "descricao": "Órgãos e instituições públicas responsáveis por documentação, benefícios, tributos e serviços ao cidadão.",
+      "servicos": [
+        {
+          "id": "inss",
+          "nome": "INSS",
+          "descricao": "Instituto Nacional do Seguro Social. Aposentadorias, auxílios, benefícios e agendamentos.",
+          "telefone": "135",
+          "whatsapp": null,
+          "site": "https://www.gov.br/inss/pt-br",
+          "horario": "Seg a sáb, 7h às 22h"
+        },
+        {
+          "id": "receita_federal",
+          "nome": "Receita Federal",
+          "descricao": "Declaração de Imposto de Renda, CPF, CNPJ e demais obrigações tributárias federais.",
+          "telefone": "41991978359",
+          "whatsapp": null,
+          "site": "https://www.gov.br/receitafederal/pt-br",
+          "horario": "Seg a sex, 8h às 18h"
+        },
+        {
+          "id": "correios",
+          "nome": "Correios",
+          "descricao": "Rastreamento de encomendas, entregas, agências e serviços postais em geral.",
+          "telefone": "0800 570 0100",
+          "whatsapp": null,
+          "site": "https://www.correios.com.br/",
+          "horario": "Seg a sex, 8h às 20h"
+        },
+        {
+          "id": "prefeitura",
+          "nome": "Prefeitura",
+          "descricao": "Serviços municipais, IPTU, protocolos e ouvidoria da cidade.",
+          "telefone": "156",
+          "whatsapp": null,
+          "site": null,
+          "horario": "Seg a sex, 8h às 18h"
+        },
+        {
+          "id": "detran",
+          "nome": "Detran",
+          "descricao": "CNH, licenciamento de veículos, multas e serviços de trânsito.",
+          "telefone": "0800 643 7373",
+          "whatsapp": null,
+          "site": "https://www.detran.pr.gov.br/",
+          "horario": "Seg a sex, 8h às 18h"
+        },
+        {
+          "id": "procon",
+          "nome": "Procon",
+          "descricao": "Defesa e orientação ao consumidor em casos de compras, cobranças indevidas e problemas com empresas.",
+          "telefone": " 0800-041-1512",
+          "whatsapp": null,
+          "site": "https://www.procon.pr.gov.br",
+          "horario": "Seg a sex, 9h às 17h"
+        }
+      ]
+    },
+    {
+      "id": "assistencia_social",
+      "nome": "Assistência Social",
+      "icone": "FAMILY_RESTROOM",
+      "descricao": "Rede de proteção social voltada a famílias e indivíduos em situação de vulnerabilidade.",
+      "servicos": [
+        {
+          "id": "creas",
+          "nome": "CREAS",
+          "descricao": "Centro de Referência Especializado de Assistência Social. Atende famílias em situação de risco ou violação de direitos.",
+          "telefone": "4132626812",
+          "whatsapp": null,
+          "site": "https://servicos.curitiba.pr.gov.br/creas-centro-de-referencia-especializado-de-assistencia-social/258",
+          "horario": "Seg a sex, 8h às 17h"
+        },
+        {
+          "id": "conselho_tutelar",
+          "nome": "Conselho Tutelar",
+          "descricao": "Órgão responsável por zelar pelos direitos de crianças e adolescentes.",
+          "telefone": "4132626124",
+          "whatsapp": null,
+          "site": null,
+          "horario": "Plantão 24 horas"
+        }
+      ]
+    }
+  ]
+}
